@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="22154" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14490.70"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="22154"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -18,7 +18,7 @@
                 <menuItem title="DPCIManager" id="56">
                     <menu key="submenu" title="DPCIManager" systemMenu="apple" id="57">
                         <items>
-                            <menuItem title="About DPCIManager" id="58">
+                            <menuItem title="Sobre o DPCIManager" id="58">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="orderFrontStandardAboutPanel:" target="-2" id="142"/>
@@ -27,24 +27,24 @@
                             <menuItem isSeparatorItem="YES" id="143">
                                 <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                             </menuItem>
-                            <menuItem title="Services" id="131">
-                                <menu key="submenu" title="Services" systemMenu="services" id="130"/>
+                            <menuItem title="Serviços" id="131">
+                                <menu key="submenu" title="Serviços" systemMenu="services" id="130"/>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="144">
                                 <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                             </menuItem>
-                            <menuItem title="Hide DPCIManager" keyEquivalent="h" id="134">
+                            <menuItem title="Ocultar DPCIManager" keyEquivalent="h" id="134">
                                 <connections>
                                     <action selector="hide:" target="-1" id="367"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Hide Others" keyEquivalent="h" id="145">
+                            <menuItem title="Ocultar Outros" keyEquivalent="h" id="145">
                                 <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
                                 <connections>
                                     <action selector="hideOtherApplications:" target="-1" id="368"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Show All" id="150">
+                            <menuItem title="Mostrar Tudo" id="150">
                                 <connections>
                                     <action selector="unhideAllApplications:" target="-1" id="370"/>
                                 </connections>
@@ -52,7 +52,7 @@
                             <menuItem isSeparatorItem="YES" id="149">
                                 <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                             </menuItem>
-                            <menuItem title="Quit DPCIManager" keyEquivalent="q" id="136">
+                            <menuItem title="Sair do  DPCIManager" keyEquivalent="q" id="136">
                                 <connections>
                                     <action selector="terminate:" target="-3" id="449"/>
                                 </connections>
@@ -60,21 +60,21 @@
                         </items>
                     </menu>
                 </menuItem>
-                <menuItem title="File" id="83">
-                    <menu key="submenu" title="File" id="81">
+                <menuItem title="Arquivo" id="83">
+                    <menu key="submenu" title="Arquivo" id="81">
                         <items>
-                            <menuItem title="New" keyEquivalent="n" id="82">
+                            <menuItem title="Novo" keyEquivalent="n" id="82">
                                 <connections>
                                     <action selector="newDocument:" target="-1" id="373"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Open…" keyEquivalent="o" id="72">
+                            <menuItem title="Abrir…" keyEquivalent="o" id="72">
                                 <connections>
                                     <action selector="openDocument:" target="-1" id="374"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Open Recent" id="124">
-                                <menu key="submenu" title="Open Recent" systemMenu="recentDocuments" id="125">
+                            <menuItem title="Abrir Recente" id="124">
+                                <menu key="submenu" title="Abrir Recente" systemMenu="recentDocuments" id="125">
                                     <items>
                                         <menuItem title="Clear Menu" id="126">
                                             <connections>
@@ -87,12 +87,12 @@
                             <menuItem isSeparatorItem="YES" id="79">
                                 <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                             </menuItem>
-                            <menuItem title="Close" keyEquivalent="w" id="73">
+                            <menuItem title="Fechar" keyEquivalent="w" id="73">
                                 <connections>
                                     <action selector="performClose:" target="-1" id="193"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Save…" keyEquivalent="s" id="75">
+                            <menuItem title="Salvar…" keyEquivalent="s" id="75">
                                 <connections>
                                     <action selector="savePCIInfo:" target="494" id="gBW-5M-Zn9"/>
                                 </connections>
@@ -112,7 +112,7 @@
                                     <action selector="runPageLayout:" target="-1" id="87"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Print…" keyEquivalent="p" id="78">
+                            <menuItem title="Imprimir…" keyEquivalent="p" id="78">
                                 <connections>
                                     <action selector="print:" target="-1" id="86"/>
                                 </connections>
@@ -120,8 +120,8 @@
                         </items>
                     </menu>
                 </menuItem>
-                <menuItem title="Edit" id="217">
-                    <menu key="submenu" title="Edit" id="205">
+                <menuItem title="Editar" id="217">
+                    <menu key="submenu" title="Editar" id="205">
                         <items>
                             <menuItem title="Undo" keyEquivalent="z" id="207">
                                 <connections>
@@ -137,12 +137,12 @@
                             <menuItem isSeparatorItem="YES" id="206">
                                 <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                             </menuItem>
-                            <menuItem title="Cut" keyEquivalent="x" id="199">
+                            <menuItem title="Recortar" keyEquivalent="x" id="199">
                                 <connections>
                                     <action selector="cut:" target="-1" id="228"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Copy" keyEquivalent="c" id="197">
+                            <menuItem title="Copiar" keyEquivalent="c" id="197">
                                 <connections>
                                     <action selector="copy:" target="-1" id="224"/>
                                 </connections>
@@ -152,18 +152,18 @@
                                     <action selector="paste:" target="-1" id="226"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Paste and Match Style" keyEquivalent="V" id="485">
+                            <menuItem title="Colar e Manter Estilo" keyEquivalent="V" id="485">
                                 <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
                                 <connections>
                                     <action selector="pasteAsPlainText:" target="-1" id="486"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Delete" id="202">
+                            <menuItem title="Apagar" id="202">
                                 <connections>
                                     <action selector="delete:" target="-1" id="235"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Select All" keyEquivalent="a" id="198">
+                            <menuItem title="Selecionar Tudo" keyEquivalent="a" id="198">
                                 <connections>
                                     <action selector="selectAll:" target="-1" id="232"/>
                                 </connections>
@@ -171,37 +171,37 @@
                             <menuItem isSeparatorItem="YES" id="214">
                                 <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                             </menuItem>
-                            <menuItem title="Find" id="218">
-                                <menu key="submenu" title="Find" id="220">
+                            <menuItem title="Localizar" id="218">
+                                <menu key="submenu" title="Localizar" id="220">
                                     <items>
-                                        <menuItem title="Find…" tag="1" keyEquivalent="f" id="209">
+                                        <menuItem title="Localizar…" tag="1" keyEquivalent="f" id="209">
                                             <connections>
                                                 <action selector="performFindPanelAction:" target="-1" id="241"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Find and Replace…" tag="12" keyEquivalent="f" id="534">
+                                        <menuItem title="Localizar e Substituir…" tag="12" keyEquivalent="f" id="534">
                                             <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
                                             <connections>
                                                 <action selector="performFindPanelAction:" target="-1" id="535"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Find Next" tag="2" keyEquivalent="g" id="208">
+                                        <menuItem title="Localizar Próximo" tag="2" keyEquivalent="g" id="208">
                                             <connections>
                                                 <action selector="performFindPanelAction:" target="-1" id="487"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Find Previous" tag="3" keyEquivalent="G" id="213">
+                                        <menuItem title="Localizar Anterior" tag="3" keyEquivalent="G" id="213">
                                             <modifierMask key="keyEquivalentModifierMask" shift="YES" command="YES"/>
                                             <connections>
                                                 <action selector="performFindPanelAction:" target="-1" id="488"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Use Selection for Find" tag="7" keyEquivalent="e" id="221">
+                                        <menuItem title="Usar Seleção para Localizar" tag="7" keyEquivalent="e" id="221">
                                             <connections>
                                                 <action selector="performFindPanelAction:" target="-1" id="489"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Jump to Selection" keyEquivalent="j" id="210">
+                                        <menuItem title="Pular para Seleção" keyEquivalent="j" id="210">
                                             <connections>
                                                 <action selector="centerSelectionInVisibleArea:" target="-1" id="245"/>
                                             </connections>
@@ -212,16 +212,16 @@
                         </items>
                     </menu>
                 </menuItem>
-                <menuItem title="View" id="295">
-                    <menu key="submenu" title="View" id="296">
+                <menuItem title="Visualizar" id="295">
+                    <menu key="submenu" title="Visualizar" id="296">
                         <items>
-                            <menuItem title="Show Toolbar" keyEquivalent="t" id="297">
+                            <menuItem title="Mostrar Barra de Ferramentas" keyEquivalent="t" id="297">
                                 <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
                                 <connections>
                                     <action selector="toggleToolbarShown:" target="-1" id="366"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Customize Toolbar…" id="298">
+                            <menuItem title="Customizar Barra de Ferramentas…" id="298">
                                 <connections>
                                     <action selector="runToolbarCustomizationPalette:" target="-1" id="365"/>
                                 </connections>
@@ -229,36 +229,36 @@
                         </items>
                     </menu>
                 </menuItem>
-                <menuItem title="Tools" id="2448">
+                <menuItem title="Ferramentas" id="2448">
                     <modifierMask key="keyEquivalentModifierMask"/>
-                    <menu key="submenu" title="Tools" id="2449">
+                    <menu key="submenu" title="Ferramentas" id="2449">
                         <items>
-                            <menuItem title="Extract DSDT..." id="2450">
+                            <menuItem title="Extrair DSDT..." id="2450">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="dumpDsdt:" target="494" id="2462"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Extract All..." id="2451">
+                            <menuItem title="Extrair Tudo..." id="2451">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="dumpTables:" target="494" id="2463"/>
                                 </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="2453"/>
-                            <menuItem title="Repair Permissions..." id="2452">
+                            <menuItem title="Reparar Permissões..." id="2452">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="repair:" target="494" id="2466"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Rebuild Cache..." id="2454">
+                            <menuItem title="Reconstruir Cache..." id="2454">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="rebuild:" target="494" id="2465"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Install Kext..." id="2455">
+                            <menuItem title="Instalar Kext..." id="2455">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="install:" target="494" id="2467"/>
@@ -267,10 +267,10 @@
                         </items>
                     </menu>
                 </menuItem>
-                <menuItem title="Window" id="19">
-                    <menu key="submenu" title="Window" systemMenu="window" id="24">
+                <menuItem title="Janela" id="19">
+                    <menu key="submenu" title="Janela" systemMenu="window" id="24">
                         <items>
-                            <menuItem title="Minimize" keyEquivalent="m" id="23">
+                            <menuItem title="Minimizar" keyEquivalent="m" id="23">
                                 <connections>
                                     <action selector="performMiniaturize:" target="-1" id="37"/>
                                 </connections>
@@ -288,7 +288,7 @@
                                     <action selector="makeKeyAndOrderFront:" target="1606" id="1642"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Bring All to Front" id="5">
+                            <menuItem title="Trazer Tudo para Frente" id="5">
                                 <connections>
                                     <action selector="arrangeInFront:" target="-1" id="39"/>
                                 </connections>
@@ -296,11 +296,11 @@
                         </items>
                     </menu>
                 </menuItem>
-                <menuItem title="Help" id="490">
+                <menuItem title="Ajuda" id="490">
                     <modifierMask key="keyEquivalentModifierMask"/>
-                    <menu key="submenu" title="Help" systemMenu="help" id="491">
+                    <menu key="submenu" title="Ajuda" systemMenu="help" id="491">
                         <items>
-                            <menuItem title="DPCIManager Help" keyEquivalent="?" id="492">
+                            <menuItem title="Ajuda do DPCIManager" keyEquivalent="?" id="492">
                                 <connections>
                                     <action selector="showHelp:" target="-1" id="493"/>
                                 </connections>
@@ -309,11 +309,12 @@
                     </menu>
                 </menuItem>
             </items>
+            <point key="canvasLocation" x="14" y="114"/>
         </menu>
         <window title="DPCIManager" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" releasedWhenClosed="NO" frameAutosaveName="mainFrame" animationBehavior="default" id="371">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <rect key="contentRect" x="335" y="390" width="640" height="480"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1366" height="768"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1366" height="743"/>
             <view key="contentView" id="372">
                 <rect key="frame" x="0.0" y="0.0" width="640" height="480"/>
                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -330,19 +331,18 @@
                                         <scrollView autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="640">
                                             <rect key="frame" x="17" y="340" width="560" height="75"/>
                                             <clipView key="contentView" id="vso-VA-p5S">
-                                                <rect key="frame" x="1" y="0.0" width="558" height="74"/>
+                                                <rect key="frame" x="1" y="1" width="558" height="73"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <subviews>
                                                     <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" alternatingRowBackgroundColors="YES" columnReordering="NO" multipleSelection="NO" emptySelection="NO" autosaveColumns="NO" typeSelect="NO" headerView="643" id="641">
-                                                        <rect key="frame" x="0.0" y="0.0" width="558" height="51"/>
-                                                        <autoresizingMask key="autoresizingMask"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="558" height="50"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <size key="intercellSpacing" width="3" height="2"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                                         <tableColumns>
                                                             <tableColumn editable="NO" width="16" minWidth="16" maxWidth="16" id="2471">
                                                                 <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left">
-                                                                    <font key="font" metaFont="smallSystem"/>
                                                                     <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                     <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                                                 </tableHeaderCell>
@@ -357,9 +357,8 @@
                                                                 </segmentedCell>
                                                                 <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                                             </tableColumn>
-                                                            <tableColumn editable="NO" width="448" minWidth="40" maxWidth="1000" id="645">
-                                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Network Card Model">
-                                                                    <font key="font" metaFont="smallSystem"/>
+                                                            <tableColumn editable="NO" width="410" minWidth="40" maxWidth="1000" id="645">
+                                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Placas de Rede">
                                                                     <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                     <color key="backgroundColor" white="0.33333298560000002" alpha="1" colorSpace="calibratedWhite"/>
                                                                 </tableHeaderCell>
@@ -375,7 +374,6 @@
                                                             </tableColumn>
                                                             <tableColumn editable="NO" width="40" minWidth="40" maxWidth="40" id="646">
                                                                 <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="BSD">
-                                                                    <font key="font" metaFont="smallSystem"/>
                                                                     <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                     <color key="backgroundColor" white="0.33333298560000002" alpha="1" colorSpace="calibratedWhite"/>
                                                                 </tableHeaderCell>
@@ -390,8 +388,7 @@
                                                                 </connections>
                                                             </tableColumn>
                                                             <tableColumn editable="NO" width="42" minWidth="42" maxWidth="42" id="711">
-                                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Builtin">
-                                                                    <font key="font" metaFont="smallSystem"/>
+                                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Embutido">
                                                                     <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                     <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                                                 </tableHeaderCell>
@@ -423,7 +420,7 @@
                                                 <rect key="frame" x="224" y="17" width="15" height="102"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                             </scroller>
-                                            <tableHeaderView key="headerView" id="643">
+                                            <tableHeaderView key="headerView" wantsLayer="YES" id="643">
                                                 <rect key="frame" x="0.0" y="0.0" width="558" height="23"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                             </tableHeaderView>
@@ -431,19 +428,18 @@
                                         <scrollView autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="982">
                                             <rect key="frame" x="17" y="257" width="560" height="75"/>
                                             <clipView key="contentView" id="Lw4-nu-bOV">
-                                                <rect key="frame" x="1" y="0.0" width="558" height="74"/>
+                                                <rect key="frame" x="1" y="1" width="558" height="73"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <subviews>
                                                     <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" alternatingRowBackgroundColors="YES" columnReordering="NO" multipleSelection="NO" emptySelection="NO" autosaveColumns="NO" typeSelect="NO" headerView="985" id="983">
-                                                        <rect key="frame" x="0.0" y="0.0" width="558" height="51"/>
-                                                        <autoresizingMask key="autoresizingMask"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="558" height="50"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <size key="intercellSpacing" width="3" height="2"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                                         <tableColumns>
                                                             <tableColumn editable="NO" width="16" minWidth="16" maxWidth="16" id="2104">
                                                                 <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left">
-                                                                    <font key="font" metaFont="smallSystem"/>
                                                                     <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                     <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                                                 </tableHeaderCell>
@@ -458,9 +454,8 @@
                                                                 </segmentedCell>
                                                                 <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                                             </tableColumn>
-                                                            <tableColumn editable="NO" width="334" minWidth="40" maxWidth="1000" id="987">
-                                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Graphics Card Model">
-                                                                    <font key="font" metaFont="smallSystem"/>
+                                                            <tableColumn editable="NO" width="296" minWidth="40" maxWidth="1000" id="987">
+                                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Placas de Vídeo">
                                                                     <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                     <color key="backgroundColor" white="0.33333298560000002" alpha="1" colorSpace="calibratedWhite"/>
                                                                 </tableHeaderCell>
@@ -476,7 +471,6 @@
                                                             </tableColumn>
                                                             <tableColumn editable="NO" width="160" minWidth="160" maxWidth="1000" id="988">
                                                                 <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Framebuffer">
-                                                                    <font key="font" metaFont="smallSystem"/>
                                                                     <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                     <color key="backgroundColor" white="0.33333298560000002" alpha="1" colorSpace="calibratedWhite"/>
                                                                 </tableHeaderCell>
@@ -491,8 +485,7 @@
                                                                 </connections>
                                                             </tableColumn>
                                                             <tableColumn editable="NO" width="36" minWidth="36" maxWidth="36" id="1094">
-                                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Ports">
-                                                                    <font key="font" metaFont="smallSystem"/>
+                                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Portas">
                                                                     <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                     <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                                                 </tableHeaderCell>
@@ -521,7 +514,7 @@
                                                 <rect key="frame" x="224" y="17" width="15" height="102"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                             </scroller>
-                                            <tableHeaderView key="headerView" id="985">
+                                            <tableHeaderView key="headerView" wantsLayer="YES" id="985">
                                                 <rect key="frame" x="0.0" y="0.0" width="558" height="23"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                             </tableHeaderView>
@@ -529,19 +522,18 @@
                                         <scrollView autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1169">
                                             <rect key="frame" x="17" y="174" width="560" height="75"/>
                                             <clipView key="contentView" id="kp6-4B-Ybf">
-                                                <rect key="frame" x="1" y="0.0" width="558" height="74"/>
+                                                <rect key="frame" x="1" y="1" width="558" height="73"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <subviews>
                                                     <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" alternatingRowBackgroundColors="YES" columnReordering="NO" multipleSelection="NO" emptySelection="NO" autosaveColumns="NO" typeSelect="NO" headerView="1172" id="1170">
-                                                        <rect key="frame" x="0.0" y="0.0" width="558" height="51"/>
-                                                        <autoresizingMask key="autoresizingMask"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="558" height="50"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <size key="intercellSpacing" width="3" height="2"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                                         <tableColumns>
                                                             <tableColumn editable="NO" width="110" minWidth="40" maxWidth="1000" id="1174">
-                                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Audio Device">
-                                                                    <font key="font" metaFont="smallSystem"/>
+                                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Dispositivos de Som">
                                                                     <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                     <color key="backgroundColor" white="0.33333298560000002" alpha="1" colorSpace="calibratedWhite"/>
                                                                 </tableHeaderCell>
@@ -560,8 +552,7 @@
                                                                 </connections>
                                                             </tableColumn>
                                                             <tableColumn editable="NO" width="110" minWidth="40" maxWidth="1000" id="1175">
-                                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Sub Device">
-                                                                    <font key="font" metaFont="smallSystem"/>
+                                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Sub Dispositivo">
                                                                     <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                     <color key="backgroundColor" white="0.33333298560000002" alpha="1" colorSpace="calibratedWhite"/>
                                                                 </tableHeaderCell>
@@ -581,7 +572,6 @@
                                                             </tableColumn>
                                                             <tableColumn editable="NO" width="89" minWidth="40" maxWidth="1000" id="1195">
                                                                 <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Codec ID">
-                                                                    <font key="font" metaFont="smallSystem"/>
                                                                     <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                     <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                                                 </tableHeaderCell>
@@ -600,8 +590,7 @@
                                                                 </connections>
                                                             </tableColumn>
                                                             <tableColumn editable="NO" width="72" minWidth="10" maxWidth="1000" id="2496">
-                                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Revision">
-                                                                    <font key="font" metaFont="smallSystem"/>
+                                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Revisão">
                                                                     <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                     <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                                                 </tableHeaderCell>
@@ -619,9 +608,8 @@
                                                                     </binding>
                                                                 </connections>
                                                             </tableColumn>
-                                                            <tableColumn editable="NO" width="162" minWidth="10" maxWidth="1000" id="1197">
-                                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Codec Name*">
-                                                                    <font key="font" metaFont="smallSystem"/>
+                                                            <tableColumn editable="NO" width="124" minWidth="10" maxWidth="1000" id="1197">
+                                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Nome do Codec*">
                                                                     <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                     <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                                                 </tableHeaderCell>
@@ -654,7 +642,7 @@
                                                 <rect key="frame" x="224" y="17" width="15" height="102"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                             </scroller>
-                                            <tableHeaderView key="headerView" id="1172">
+                                            <tableHeaderView key="headerView" wantsLayer="YES" id="1172">
                                                 <rect key="frame" x="0.0" y="0.0" width="558" height="23"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                             </tableHeaderView>
@@ -662,19 +650,18 @@
                                         <scrollView autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1075">
                                             <rect key="frame" x="17" y="91" width="560" height="75"/>
                                             <clipView key="contentView" id="T85-NK-ZNi">
-                                                <rect key="frame" x="1" y="0.0" width="558" height="74"/>
+                                                <rect key="frame" x="1" y="1" width="558" height="73"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <subviews>
                                                     <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" alternatingRowBackgroundColors="YES" columnReordering="NO" multipleSelection="NO" emptySelection="NO" autosaveColumns="NO" typeSelect="NO" headerView="1078" id="1076">
-                                                        <rect key="frame" x="0.0" y="0.0" width="558" height="51"/>
-                                                        <autoresizingMask key="autoresizingMask"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="558" height="50"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <size key="intercellSpacing" width="3" height="2"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                                         <tableColumns>
-                                                            <tableColumn editable="NO" width="249" minWidth="40" maxWidth="1000" id="1080">
-                                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Storage Device Model">
-                                                                    <font key="font" metaFont="smallSystem"/>
+                                                            <tableColumn editable="NO" width="236" minWidth="40" maxWidth="1000" id="1080">
+                                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Dispositivos de Armazenamento">
                                                                     <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                     <color key="backgroundColor" white="0.33333298560000002" alpha="1" colorSpace="calibratedWhite"/>
                                                                 </tableHeaderCell>
@@ -688,9 +675,8 @@
                                                                     <binding destination="628" name="value" keyPath="selection.storage.model" id="1113"/>
                                                                 </connections>
                                                             </tableColumn>
-                                                            <tableColumn editable="NO" width="106" minWidth="40" maxWidth="1000" id="1081">
-                                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Type">
-                                                                    <font key="font" metaFont="smallSystem"/>
+                                                            <tableColumn editable="NO" width="93" minWidth="40" maxWidth="1000" id="1081">
+                                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Tipo">
                                                                     <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                     <color key="backgroundColor" white="0.33333298560000002" alpha="1" colorSpace="calibratedWhite"/>
                                                                 </tableHeaderCell>
@@ -704,9 +690,8 @@
                                                                     <binding destination="628" name="value" keyPath="selection.storage.inter" id="1115"/>
                                                                 </connections>
                                                             </tableColumn>
-                                                            <tableColumn editable="NO" width="135" minWidth="10" maxWidth="1000" id="1104">
-                                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Location">
-                                                                    <font key="font" metaFont="smallSystem"/>
+                                                            <tableColumn editable="NO" width="123" minWidth="10" maxWidth="1000" id="1104">
+                                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Localização">
                                                                     <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                     <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                                                 </tableHeaderCell>
@@ -721,8 +706,7 @@
                                                                 </connections>
                                                             </tableColumn>
                                                             <tableColumn editable="NO" width="56" minWidth="56" maxWidth="56" id="1106">
-                                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Phy Block">
-                                                                    <font key="font" metaFont="smallSystem"/>
+                                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Blocos Físicos">
                                                                     <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                     <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                                                 </tableHeaderCell>
@@ -755,12 +739,12 @@
                                                 <rect key="frame" x="224" y="17" width="15" height="102"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                             </scroller>
-                                            <tableHeaderView key="headerView" id="1078">
+                                            <tableHeaderView key="headerView" wantsLayer="YES" id="1078">
                                                 <rect key="frame" x="0.0" y="0.0" width="558" height="23"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                             </tableHeaderView>
                                         </scrollView>
-                                        <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="766">
+                                        <textField focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="766">
                                             <rect key="frame" x="381" y="6" width="198" height="14"/>
                                             <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="*Courtesy of the VoodooHDA project" id="767">
                                                 <font key="font" metaFont="smallSystem"/>
@@ -791,7 +775,7 @@
                                     </constraints>
                                 </view>
                             </tabViewItem>
-                            <tabViewItem label="PCI List" identifier="2" id="631">
+                            <tabViewItem label="Lista PCI" identifier="2" id="631">
                                 <view key="view" id="632">
                                     <rect key="frame" x="10" y="33" width="594" height="418"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -799,19 +783,18 @@
                                         <scrollView autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="557">
                                             <rect key="frame" x="17" y="42" width="560" height="373"/>
                                             <clipView key="contentView" id="SQg-Sc-6M6">
-                                                <rect key="frame" x="1" y="0.0" width="558" height="372"/>
+                                                <rect key="frame" x="1" y="1" width="558" height="371"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <subviews>
                                                     <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" alternatingRowBackgroundColors="YES" columnReordering="NO" multipleSelection="NO" emptySelection="NO" autosaveColumns="NO" typeSelect="NO" headerView="560" id="558">
-                                                        <rect key="frame" x="0.0" y="0.0" width="558" height="349"/>
-                                                        <autoresizingMask key="autoresizingMask"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="558" height="348"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <size key="intercellSpacing" width="3" height="2"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                                         <tableColumns>
                                                             <tableColumn editable="NO" width="16" minWidth="16" maxWidth="16" id="1276">
                                                                 <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left">
-                                                                    <font key="font" metaFont="smallSystem"/>
                                                                     <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                     <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                                                 </tableHeaderCell>
@@ -827,8 +810,7 @@
                                                                 <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                                             </tableColumn>
                                                             <tableColumn editable="NO" width="48" minWidth="48" maxWidth="48" id="562">
-                                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Vendor">
-                                                                    <font key="font" metaFont="smallSystem"/>
+                                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Fabricante">
                                                                     <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                     <color key="backgroundColor" white="0.33333298560000002" alpha="1" colorSpace="calibratedWhite"/>
                                                                 </tableHeaderCell>
@@ -847,8 +829,7 @@
                                                                 </connections>
                                                             </tableColumn>
                                                             <tableColumn editable="NO" width="48" minWidth="48" maxWidth="48" id="563">
-                                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Device">
-                                                                    <font key="font" metaFont="smallSystem"/>
+                                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Dispositivo">
                                                                     <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                     <color key="backgroundColor" white="0.33333298560000002" alpha="1" colorSpace="calibratedWhite"/>
                                                                 </tableHeaderCell>
@@ -867,8 +848,7 @@
                                                                 </connections>
                                                             </tableColumn>
                                                             <tableColumn editable="NO" width="48" minWidth="48" maxWidth="48" id="593">
-                                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Sub Ven">
-                                                                    <font key="font" metaFont="smallSystem"/>
+                                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Sub Fab">
                                                                     <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                     <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                                                 </tableHeaderCell>
@@ -887,8 +867,7 @@
                                                                 </connections>
                                                             </tableColumn>
                                                             <tableColumn editable="NO" width="48" minWidth="48" maxWidth="48" id="595">
-                                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Sub Dev">
-                                                                    <font key="font" metaFont="smallSystem"/>
+                                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Sub Disp">
                                                                     <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                     <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                                                 </tableHeaderCell>
@@ -907,8 +886,7 @@
                                                                 </connections>
                                                             </tableColumn>
                                                             <tableColumn editable="NO" width="111" minWidth="10" maxWidth="1000" id="602">
-                                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Vendor Name">
-                                                                    <font key="font" metaFont="smallSystem"/>
+                                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Nome do Fabricante">
                                                                     <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                     <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                                                 </tableHeaderCell>
@@ -922,9 +900,8 @@
                                                                     <binding destination="592" name="value" keyPath="arrangedObjects.vendorString" id="2446"/>
                                                                 </connections>
                                                             </tableColumn>
-                                                            <tableColumn editable="NO" width="218" minWidth="10" maxWidth="1000" id="604">
-                                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Device Name">
-                                                                    <font key="font" metaFont="smallSystem"/>
+                                                            <tableColumn editable="NO" width="180" minWidth="10" maxWidth="1000" id="604">
+                                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Nome do Dispositivo">
                                                                     <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                     <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                                                 </tableHeaderCell>
@@ -955,13 +932,13 @@
                                                 <rect key="frame" x="224" y="17" width="15" height="102"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                             </scroller>
-                                            <tableHeaderView key="headerView" id="560">
+                                            <tableHeaderView key="headerView" wantsLayer="YES" id="560">
                                                 <rect key="frame" x="0.0" y="0.0" width="558" height="23"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                             </tableHeaderView>
                                         </scrollView>
-                                        <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="578">
-                                            <rect key="frame" x="15" y="17" width="564" height="17"/>
+                                        <textField focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="578">
+                                            <rect key="frame" x="15" y="17" width="564" height="16"/>
                                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" placeholderString="PCI Device Class" id="579">
                                                 <font key="font" metaFont="system"/>
                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -995,32 +972,44 @@
             </view>
             <toolbar key="toolbar" implicitIdentifier="DFF2C058-DFFA-4F6A-B0A2-AF22D1529704" displayMode="iconAndLabel" sizeMode="regular" id="536">
                 <allowedToolbarItems>
-                    <toolbarItem implicitItemIdentifier="816E2D54-2165-4331-8BE8-7276AFB9EDC3" label="Extract DSDT" paletteLabel="Extract DSDT" tag="-1" image="NSComputer" autovalidates="NO" id="1286">
+                    <toolbarItem implicitItemIdentifier="816E2D54-2165-4331-8BE8-7276AFB9EDC3" label="Extrair DSDT" paletteLabel="Extrair DSDT" tag="-1" image="NSComputer" autovalidates="NO" id="1286">
+                        <size key="minSize" width="22" height="22"/>
+                        <size key="maxSize" width="22" height="22"/>
                         <connections>
                             <action selector="dumpDsdt:" target="494" id="1288"/>
                         </connections>
                     </toolbarItem>
-                    <toolbarItem implicitItemIdentifier="94A177D1-5A32-46C1-AF6B-32A4AD78A871" label="Extract All" paletteLabel="Extract All" tag="-1" image="NSMultipleDocuments" autovalidates="NO" id="1287">
+                    <toolbarItem implicitItemIdentifier="94A177D1-5A32-46C1-AF6B-32A4AD78A871" label="Extrair Tudo" paletteLabel="Extrair Tudo" tag="-1" image="NSMultipleDocuments" autovalidates="NO" id="1287">
+                        <size key="minSize" width="22" height="22"/>
+                        <size key="maxSize" width="22" height="22"/>
                         <connections>
                             <action selector="dumpTables:" target="494" id="1289"/>
                         </connections>
                     </toolbarItem>
-                    <toolbarItem implicitItemIdentifier="5B85AC88-5395-42FC-B7FF-A7F7D7D41E37" label="Repair Perms" paletteLabel="Repair Perms" tag="-1" image="NSAdvanced" autovalidates="NO" id="1601">
+                    <toolbarItem implicitItemIdentifier="5B85AC88-5395-42FC-B7FF-A7F7D7D41E37" label="Reparar Perms" paletteLabel="Reparar Perms" tag="-1" image="NSAdvanced" autovalidates="NO" id="1601">
+                        <size key="minSize" width="22" height="22"/>
+                        <size key="maxSize" width="22" height="22"/>
                         <connections>
                             <action selector="repair:" target="494" id="1605"/>
                         </connections>
                     </toolbarItem>
-                    <toolbarItem implicitItemIdentifier="060CD3CF-190C-420E-8686-4151639FFABE" label="Rebuild Cache" paletteLabel="Rebuild Cache" tag="-1" image="NSFolderSmart" autovalidates="NO" id="1600">
+                    <toolbarItem implicitItemIdentifier="060CD3CF-190C-420E-8686-4151639FFABE" label="Reconstruir Cache" paletteLabel="Reconstruir Cache" tag="-1" image="NSFolderSmart" autovalidates="NO" id="1600">
+                        <size key="minSize" width="22" height="22"/>
+                        <size key="maxSize" width="22" height="22"/>
                         <connections>
                             <action selector="rebuild:" target="494" id="1604"/>
                         </connections>
                     </toolbarItem>
-                    <toolbarItem implicitItemIdentifier="3023597E-A426-4205-8D38-59A23EFC828E" label="Install Kext" paletteLabel="Install Kext" tag="-1" image="NSFolderBurnable" autovalidates="NO" id="1602">
+                    <toolbarItem implicitItemIdentifier="3023597E-A426-4205-8D38-59A23EFC828E" label="Instalar Kext" paletteLabel="Instalar Kext" tag="-1" image="NSFolderBurnable" autovalidates="NO" id="1602">
+                        <size key="minSize" width="22" height="22"/>
+                        <size key="maxSize" width="22" height="22"/>
                         <connections>
                             <action selector="install:" target="494" id="1603"/>
                         </connections>
                     </toolbarItem>
-                    <toolbarItem implicitItemIdentifier="1ACD6833-29FA-4616-91F6-56003F8A4CB9" label="Update IDs" paletteLabel="Update IDs" tag="-1" image="NSNetwork" autovalidates="NO" id="585">
+                    <toolbarItem implicitItemIdentifier="1ACD6833-29FA-4616-91F6-56003F8A4CB9" label="Atualizar IDs" paletteLabel="Atualizar IDs" tag="-1" image="NSNetwork" autovalidates="NO" id="585">
+                        <size key="minSize" width="22" height="22"/>
+                        <size key="maxSize" width="22" height="22"/>
                         <connections>
                             <action selector="updateIDs:" target="494" id="1828"/>
                         </connections>
@@ -1048,7 +1037,7 @@
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES" utility="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="1120" y="98" width="655" height="177"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1366" height="768"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1366" height="743"/>
             <view key="contentView" id="1607">
                 <rect key="frame" x="0.0" y="0.0" width="655" height="177"/>
                 <autoresizingMask key="autoresizingMask"/>
@@ -1056,19 +1045,18 @@
                     <scrollView autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1608">
                         <rect key="frame" x="0.0" y="0.0" width="655" height="177"/>
                         <clipView key="contentView" copiesOnScroll="NO" id="4Sy-cz-lrQ">
-                            <rect key="frame" x="1" y="0.0" width="653" height="176"/>
+                            <rect key="frame" x="1" y="1" width="653" height="175"/>
                             <autoresizingMask key="autoresizingMask"/>
                             <subviews>
                                 <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnReordering="NO" autosaveColumns="NO" typeSelect="NO" headerView="1611" id="1609">
-                                    <rect key="frame" x="0.0" y="0.0" width="653" height="153"/>
-                                    <autoresizingMask key="autoresizingMask"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="653" height="152"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <size key="intercellSpacing" width="3" height="2"/>
                                     <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                     <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                     <tableColumns>
                                         <tableColumn editable="NO" width="147" minWidth="40" maxWidth="1000" id="1613">
                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Timestamp">
-                                                <font key="font" metaFont="smallSystem"/>
                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                 <color key="backgroundColor" white="0.33333298560000002" alpha="1" colorSpace="calibratedWhite"/>
                                             </tableHeaderCell>
@@ -1087,9 +1075,8 @@
                                                 </binding>
                                             </connections>
                                         </tableColumn>
-                                        <tableColumn editable="NO" width="500" minWidth="40" maxWidth="1000" id="1614">
+                                        <tableColumn editable="NO" width="462" minWidth="40" maxWidth="1000" id="1614">
                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Entry">
-                                                <font key="font" metaFont="smallSystem"/>
                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                 <color key="backgroundColor" white="0.33333298560000002" alpha="1" colorSpace="calibratedWhite"/>
                                             </tableHeaderCell>
@@ -1147,6 +1134,7 @@
         </customObject>
         <customObject id="420" customClass="NSFontManager"/>
         <arrayController objectClassName="pciDevice" editable="NO" preservesSelection="NO" selectsInsertedObjects="NO" avoidsEmptySelection="NO" clearsFilterPredicateOnInsertion="NO" id="592" userLabel="PCIs">
+            <classReference key="objectClass" className="pciDevice"/>
             <connections>
                 <binding destination="494" name="contentArray" keyPath="pcis" id="2487">
                     <dictionary key="options">
@@ -1174,6 +1162,7 @@
                 <string>children</string>
                 <string>type</string>
             </declaredKeys>
+            <classReference key="objectClass" className="NSDictionary"/>
             <connections>
                 <binding destination="494" name="contentArray" keyPath="matches" id="2488">
                     <dictionary key="options">
@@ -1197,26 +1186,25 @@
                 <outlet property="contentViewController" destination="1675" id="1677"/>
             </connections>
         </popover>
-        <customView id="1678">
-            <rect key="frame" x="0.0" y="0.0" width="295" height="165"/>
+        <customView misplaced="YES" id="1678">
+            <rect key="frame" x="0.0" y="0.0" width="295" height="173"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
                 <scrollView autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1679">
-                    <rect key="frame" x="0.0" y="0.0" width="295" height="133"/>
+                    <rect key="frame" x="0.0" y="0.0" width="295" height="139"/>
                     <clipView key="contentView" id="9Dh-lM-uBf">
-                        <rect key="frame" x="1" y="1" width="293" height="131"/>
-                        <autoresizingMask key="autoresizingMask"/>
+                        <rect key="frame" x="1" y="1" width="293" height="137"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <outlineView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" selectionHighlightStyle="none" columnReordering="NO" multipleSelection="NO" emptySelection="NO" autosaveColumns="NO" typeSelect="NO" rowSizeStyle="automatic" viewBased="YES" indentationPerLevel="16" outlineTableColumn="1684" id="1680">
-                                <rect key="frame" x="0.0" y="0.0" width="293" height="131"/>
-                                <autoresizingMask key="autoresizingMask"/>
+                                <rect key="frame" x="0.0" y="0.0" width="293" height="137"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <size key="intercellSpacing" width="3" height="2"/>
                                 <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                 <tableColumns>
-                                    <tableColumn editable="NO" width="290" minWidth="16" maxWidth="1000" id="1684">
+                                    <tableColumn editable="NO" width="252" minWidth="16" maxWidth="1000" id="1684">
                                         <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left">
-                                            <font key="font" metaFont="smallSystem"/>
                                             <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" white="0.33333298560000002" alpha="1" colorSpace="calibratedWhite"/>
                                         </tableHeaderCell>
@@ -1228,11 +1216,11 @@
                                         <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                         <prototypeCellViews>
                                             <tableCellView id="1802">
-                                                <rect key="frame" x="1" y="1" width="290" height="17"/>
+                                                <rect key="frame" x="1" y="1" width="261" height="17"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <subviews>
                                                     <imageView translatesAutoresizingMaskIntoConstraints="NO" id="1803">
-                                                        <rect key="frame" x="3" y="1" width="16" height="16"/>
+                                                        <rect key="frame" x="3" y="-4" width="16" height="26"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="16" id="1830"/>
                                                             <constraint firstAttribute="height" constant="16" id="1835"/>
@@ -1247,7 +1235,7 @@
                                                             </binding>
                                                         </connections>
                                                     </imageView>
-                                                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="1804">
+                                                    <textField focusRingType="none" verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="1804">
                                                         <rect key="frame" x="26" y="0.0" width="264" height="18"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="260" id="1834"/>
@@ -1292,8 +1280,8 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </scroller>
                 </scrollView>
-                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="1699">
-                    <rect key="frame" x="105" y="141" width="85" height="18"/>
+                <textField focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="1699">
+                    <rect key="frame" x="105" y="147" width="85" height="17"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Suggestions" id="1700">
                         <font key="font" metaFont="system" size="14"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -1301,15 +1289,15 @@
                     </textFieldCell>
                 </textField>
                 <button translatesAutoresizingMaskIntoConstraints="NO" id="1733">
-                    <rect key="frame" x="273" y="144" width="13" height="13"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="13" id="1766"/>
-                        <constraint firstAttribute="width" constant="13" id="1770"/>
-                    </constraints>
+                    <rect key="frame" x="273" y="147" width="13" height="17"/>
                     <buttonCell key="cell" type="bevel" bezelStyle="rounded" image="NSStopProgressTemplate" imagePosition="below" alignment="center" imageScaling="proportionallyDown" inset="2" id="1734">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
                     </buttonCell>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="13" id="1766"/>
+                        <constraint firstAttribute="width" constant="13" id="1770"/>
+                    </constraints>
                     <connections>
                         <action selector="performClose:" target="1676" id="1778"/>
                     </connections>
@@ -1329,15 +1317,15 @@
         </customView>
     </objects>
     <resources>
-        <image name="NSActionTemplate" width="14" height="14"/>
+        <image name="NSActionTemplate" width="19" height="19"/>
         <image name="NSAdvanced" width="32" height="32"/>
         <image name="NSComputer" width="32" height="32"/>
         <image name="NSFolderBurnable" width="32" height="32"/>
         <image name="NSFolderSmart" width="32" height="32"/>
         <image name="NSMultipleDocuments" width="32" height="32"/>
         <image name="NSNetwork" width="32" height="32"/>
-        <image name="NSQuickLookTemplate" width="19" height="12"/>
-        <image name="NSRevealFreestandingTemplate" width="14" height="14"/>
-        <image name="NSStopProgressTemplate" width="11" height="11"/>
+        <image name="NSQuickLookTemplate" width="27" height="16"/>
+        <image name="NSRevealFreestandingTemplate" width="19" height="19"/>
+        <image name="NSStopProgressTemplate" width="17" height="15"/>
     </resources>
 </document>

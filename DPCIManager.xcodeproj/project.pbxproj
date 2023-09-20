@@ -20,7 +20,6 @@
 		B02571531601496400B0E1EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B02571521601496400B0E1EB /* AppDelegate.m */; };
 		B02571561601496400B0E1EB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B02571541601496400B0E1EB /* MainMenu.xib */; };
 		B025716816018CF000B0E1EB /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B025716716018CF000B0E1EB /* IOKit.framework */; };
-		B025716A16018D0600B0E1EB /* DPCIManager.icns in Resources */ = {isa = PBXBuildFile; fileRef = B025716916018D0600B0E1EB /* DPCIManager.icns */; };
 		B025716C16018D9600B0E1EB /* pci.ids in Resources */ = {isa = PBXBuildFile; fileRef = B025716B16018D9600B0E1EB /* pci.ids */; };
 		B05AE9BC162A500B005190E4 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = B05AE9BB162A500B005190E4 /* Task.m */; };
 		B07193831623B776006D5666 /* PCI.m in Sources */ = {isa = PBXBuildFile; fileRef = B07193821623B776006D5666 /* PCI.m */; };
@@ -30,6 +29,7 @@
 		B0F67A851696BDDD0059FD30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F67A841696BDDD0059FD30 /* main.m */; };
 		B0F67A8E1696BE6D0059FD30 /* PCI.m in Sources */ = {isa = PBXBuildFile; fileRef = B07193821623B776006D5666 /* PCI.m */; };
 		B0F67A8F1696BEA40059FD30 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B025716716018CF000B0E1EB /* IOKit.framework */; };
+		DD47FE1F2ABB6B200063D03F /* DPCIManager.icns in Resources */ = {isa = PBXBuildFile; fileRef = DD47FE212ABB6B200063D03F /* DPCIManager.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -75,7 +75,6 @@
 		B02571521601496400B0E1EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B02571551601496400B0E1EB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		B025716716018CF000B0E1EB /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
-		B025716916018D0600B0E1EB /* DPCIManager.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = DPCIManager.icns; sourceTree = SOURCE_ROOT; };
 		B025716B16018D9600B0E1EB /* pci.ids */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pci.ids; sourceTree = SOURCE_ROOT; };
 		B051DE22160682A4005CC4B6 /* Tables.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tables.h; sourceTree = "<group>"; };
 		B051DE2416068316005CC4B6 /* License.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = License.h; sourceTree = "<group>"; };
@@ -90,6 +89,7 @@
 		B0F67A7F1696BDDD0059FD30 /* dspci */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dspci; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0F67A811696BDDD0059FD30 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B0F67A841696BDDD0059FD30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD47FE222ABB6B280063D03F /* en */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = en; path = en.lproj/DPCIManager.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,7 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				B02571471601496400B0E1EB /* DPCIManager-Info.plist */,
-				B025716916018D0600B0E1EB /* DPCIManager.icns */,
+				DD47FE212ABB6B200063D03F /* DPCIManager.icns */,
 				B025716B16018D9600B0E1EB /* pci.ids */,
 				B025714B1601496400B0E1EB /* main.m */,
 				B025714D1601496400B0E1EB /* DPCIManager-Prefix.pch */,
@@ -312,7 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B02571561601496400B0E1EB /* MainMenu.xib in Resources */,
-				B025716A16018D0600B0E1EB /* DPCIManager.icns in Resources */,
+				DD47FE1F2ABB6B200063D03F /* DPCIManager.icns in Resources */,
 				B025716C16018D9600B0E1EB /* pci.ids in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,6 +379,14 @@
 			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
+		DD47FE212ABB6B200063D03F /* DPCIManager.icns */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD47FE222ABB6B280063D03F /* en */,
+			);
+			name = DPCIManager.icns;
+			sourceTree = SOURCE_ROOT;
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -407,7 +415,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_MARKETING_VERSION = 2.1;
-				CURRENT_PROJECT_VERSION = 315;
+				CURRENT_PROJECT_VERSION = 321;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -457,7 +465,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				CURRENT_MARKETING_VERSION = 2.1;
-				CURRENT_PROJECT_VERSION = 315;
+				CURRENT_PROJECT_VERSION = 321;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEPLOYMENT_POSTPROCESSING = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -482,6 +490,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DPCIManager/DPCIManager-Prefix.pch";
 				INFOPLIST_FILE = "DPCIManager/DPCIManager-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.muntashirakon.DPCIManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -495,6 +504,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DPCIManager/DPCIManager-Prefix.pch";
 				INFOPLIST_FILE = "DPCIManager/DPCIManager-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.muntashirakon.DPCIManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
